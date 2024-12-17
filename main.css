@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( 80deg,#0a0a0a,#3a4452);
+}
+.header{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid 45deg,#0a0a0a,#3a4452;
+    display: flex;
+    justify-content: space-between;   
+}
+.header img{
+    height: 20vh;
+    width: 25vh;   
+}
+.sign button{
+    /* width: 7vw;
+    height: 5vh;
+    margin-top: 6vh;
+    border-radius: 15px;
+    background-color: #fff; */
+    position: relative;
+text-align: center;
+width: 10vw;
+margin-top: 5vh;
+font-size: 20px;
+color: #15f4ee;
+font-family: poppins;
+font-weight: 400;
+border: 5px solid #15f4ee;
+text-transform: uppercase;
+Letter-spacing: 15px;
+cursor: pointer;
+border-radius:20px;
+transition: 1,.5s;
+}
+button:hover{
+    box-shadow: 
+    5 5px 5px 0 #15f4ee inset,
+    5 5px 5px 0 #15f4ee ,
+    0 5px 5px 0 #15f4ee inset,
+    0 5px 5px 0 #15f4ee ;
+    text-shadow:
+     0 0 5px #15f4ee,
+     0 0 5px #15f4ee;
+}
+.sign{
+    display: flex;
+    margin-right: 5vw;
+    gap: 1vw;
+}
+.right{
+    width: 50%;
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+.left{
+    width: 50%;
+    border-right: 1px solid white;
+}
+.left img{
+    height: 70vh;
+    width: 80vh;
+    margin-left: 10vw;
+}
+.heading h1{
+    color: white;
+}
+span{
+    color: lightgreen;
+}
+.content{
+    display: flex;
+}
+.heading p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: bisque;
+}
+.Get button{
+    width: 8vw;
+    height: 6vh;
+    margin-top: 5vh;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightgreen;
+    color: (45deg,#0a0a0a,#3a4452) ;
+}
+.Get button:hover{
+    display: block;
+    filter: drop-shadow(0 0 10px);
+
+}
